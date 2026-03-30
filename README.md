@@ -94,17 +94,18 @@ COOLDOWN_AFTER_ALARM = 30            # seconds before next alarm can trigger
 python app.py
 ```
 
-Example output:
+Example output for this image:
 
+<img width="1280" height="853" alt="image" src="https://github.com/user-attachments/assets/f2ec7086-6b03-4d0d-bb89-6ee710e2f715" />
+
+Output:
 ```
-[11:47:31] 🐤 1 bird(s) recognized! → Checking with CLIP...
-   Bird #1 (YOLO: 94%) → CLIP... 🕊️  DOVE DETECTED! (Rock Dove, HIGH, 87% confidence) [Overall dove count: 1]
-   💾 Saved: detections/20260330_114743_*.jpg
+[13:04:40] No bird. (Checks: 2 | Doves: 0)                            
+[13:04:41] 🐤 1 bird(s) recognized! → Checking with CLIP...
+   Bird #1 (YOLO: 73%) → CLIP... 🕊️  DOVE DETECTED! (Dove, HIGH, 97% confidence) [Overall dove count: 1]
+   💾 Saved: detections/20260330_130441_*.jpg
    🔊 ALERT played!
    ⏸️  Cooldown 30s...
-
-[11:48:21] 🐤 1 bird(s) recognized! → Checking with CLIP...
-   Bird #1 (YOLO: 89%) → CLIP... ✅ No problem (Sparrow, LOW confidence)
 ```
 
 Detected pigeons are saved as full frame + cropped bird image in `detections/`.
