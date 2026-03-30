@@ -69,7 +69,7 @@ Edit the config section at the top of `app.py`:
 
 ```python
 # Camera
-CAMERA_SNAPSHOT_URL = "http://192.168.1.XX:8080/shot.jpg"  # IP Webcam App URL
+CAMERA_SNAPSHOT_URL = "http://192.168.1.XX:8080/shot.jpg"  # IP Webcam App URL - or - Camera Index (also configure camera index variable)
 USE_SNAPSHOT = True                                          # recommended!
 
 # Detection
