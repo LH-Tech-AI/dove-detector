@@ -97,7 +97,9 @@ python app.py
 Example output for this image:
 
 <img width="1280" height="853" alt="image" src="https://github.com/user-attachments/assets/f2ec7086-6b03-4d0d-bb89-6ee710e2f715" />
-_Image by <a href="https://pixabay.com/users/heungsoon-4523762/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7860367">HeungSoon</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7860367">Pixabay</a>_
+Image by <a href="https://pixabay.com/users/heungsoon-4523762/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7860367">HeungSoon</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7860367">Pixabay</a>
+
+<br><br>
 
 Output:
 ```
